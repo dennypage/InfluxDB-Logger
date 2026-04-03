@@ -89,6 +89,7 @@
  *   2025-08-30 Denny Page      Address softpoll issue with boolean system variables
  *   2025-12-21 Denny Page      Lower default values
  *   2026-03-17 Denny Page      Add InfluxDB V3 support (Thanks to mavrrick58)
+ *   2026-04-03 Denny Page      Add Integrations menu support
  *****************************************************************************************************************/
 
 definition(
@@ -101,6 +102,7 @@ definition(
     iconUrl: "",
     iconX2Url: "",
     iconX3Url: "",
+    menu: "Integrations",
     singleThreaded: true
 )
 
